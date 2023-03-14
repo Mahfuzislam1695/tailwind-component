@@ -7,6 +7,7 @@ import Popup from "../../views/Components/Pailot/Popup";
 import Publish from "../../views/Components/Pailot/Publish/Publish";
 import Segment from "../../views/Components/Pailot/Segment/Segment";
 import SwitchButton from "../../views/Components/Pailot/Segment/SwitchButton";
+import SettingCom from "../../views/Components/SettingCom/SettingCom";
 import Team from "../../views/Components/Team/Team";
 
 const router = createBrowserRouter([
@@ -47,6 +48,10 @@ const router = createBrowserRouter([
   {
     path: "/sw",
     element: <SwitchButton></SwitchButton>,
+  },
+  {
+    path: "/se",
+    element: <SettingCom></SettingCom>,
   },
   //   {
   //     path: "/",
